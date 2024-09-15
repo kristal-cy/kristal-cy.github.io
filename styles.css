@@ -1,111 +1,101 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #FFFCEE;
-    color: #333;
-}
-
-header {
-    background-color: #FFFCEE;
-    color: #D590AD;
-    text-align: center;
-    font-family: 'Roboto', sans-serif; 
-    font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 2rem 0;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: #D590AD; 
-    text-decoration: none;
-    font-weight: bold;
-}
-
 header h1 {
-    margin: 0.5rem 0;
-    color: #D590AD; 
+    font-size: 20px;
+    color: #FFF48E;
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+    margin-left: 120px;
 }
 
-h2 {
-    margin: 1rem 0;
-    color: #221f1f;
+.crystal-link {
+    text-decoration: none;
+    display: block;
 }
 
-section {
-    padding: 3rem;
-    background-color: #CAF3C7;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
+.home {
+    font-size: 10px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-top: -35px;
+    margin-left: 600px;
 }
 
-#about {
-    background-color: #CAF3C7;
+.home-link {
+    text-decoration: none; 
+    display: block;     
+  }
+
+
+.about {
+
+    font-size: 10px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-top: -35px;
+    margin-left: 720px;
 }
 
-#skills {
-    background-color: #CAF3C7;
+.about-link {
+    text-decoration: none;
+    display: block;
 }
 
-#projects {
-    background-color: #CAF3C7;
+.portfolio {
+    font-size: 10px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-top: -35px;
+    margin-left: 840px;
 }
 
-#contact {
-    background-color: #CAF3C7;
+.portfolio-link {
+    text-decoration: none;
+    display: block;
 }
 
-ul.skills-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.contact {
+    font-size: 10px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin-top: -35px;
+    margin-left: 970px;
 }
 
-ul.skills-list li {
-    display: inline-block;
-    background-color: #D590AD;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 5px;
+.contact-link {
+    text-decoration: none;
+    display: block;
 }
 
-.projects-grid {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem; /
+
+body {
+    background-color: #1F1F21;
 }
 
-.project-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    width: calc(33.333% - 1rem); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
+#hello {
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    color: #FFF48E;
+    margin-top: 150px;
+    margin-left: 170px;
 }
 
-.project-card h3 {
-    color: #D590AD;
-    margin-bottom: 0.5rem;
+#name {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    margin-top: -30px;
+    margin-left: 170px;
+
 }
 
-footer {
-    background-color: #D590AD;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1rem 0;
+#caption {
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+    color: #FFF48E;
+    margin-left: 170px;
+    margin-top: -20px;
+
+}
+
+#caption p {
+    margin-bottom: -15px; 
 }
