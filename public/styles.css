@@ -99,3 +99,21 @@ body {
 #caption p {
     margin-bottom: -15px; 
 }
+
+#last-cap {
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    margin-left: 170px;
+    margin-top: 25px;
+}
+
+.my-img {
+    width: 280px;  /* Set the desired width */
+    height: 280px; /* Set the desired heighst (same as width for a perfect circle) */
+    border-radius: 50%; /* Makes the image a circle */
+    object-fit: cover;  /* Ensures the image covers the area without stretching */
+    margin-left: 750px;
+    margin-top: -250px;
+    border: #FFF48E, 5px solid;
+}
