@@ -69,3 +69,33 @@ header h1 {
 body {
     background-color: #1F1F21;
 }
+
+#hello {
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    color: #FFF48E;
+    margin-top: 150px;
+    margin-left: 170px;
+}
+
+#name {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    margin-top: -30px;
+    margin-left: 170px;
+
+}
+
+#caption {
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
+    color: #FFF48E;
+    margin-left: 170px;
+    margin-top: -20px;
+
+}
+
+#caption p {
+    margin-bottom: -15px; 
+}
