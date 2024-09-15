@@ -117,3 +117,14 @@ body {
     margin-top: -250px;
     border: #FFF48E, 5px solid;
 }
+
+.github {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;  /* Change position to absolute */
+    top: 35px;           
+    right: 30px; 
+
+}
