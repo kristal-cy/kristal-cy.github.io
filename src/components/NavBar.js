@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../img/pinky.jpg';
 import git from '../img/github.jpg';
+import '../App.css';
 import ReactTypewriterEffect from 'react-typewriter-effect';
 
 export const NavBar = () => {
