@@ -26,10 +26,6 @@ export const NavBar = () => {
         setActiveLink(value);
     };
 
-    const handleIconClick = () => {
-        alert("Icon clicked! Add desired functionality here.");
-    };
-
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
@@ -46,11 +42,11 @@ export const NavBar = () => {
                             fontSize: '60px',
                             color: 'white',
                         }}
-                        startDelay={0.3}
-                        cursorColor="#FFF48E"
-                        multiText={['Crystal Jade Sabado']}
-                        typeSpeed={300}
-                        deleteSpeed={50}
+                        startDelay={0.3}     
+                        cursorColor="#FFF48E"  
+                        multiText={['Crystal Jade Sabado']} 
+                        typeSpeed={300}        
+                        deleteSpeed={50}               
                     />
                 </div>
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -93,21 +89,20 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            {/* Updated: Changed <a> to <button> with onClick */}
-                            <button className="icon-button" onClick={handleIconClick}>
-                                <img src={logo} alt="User icon" />
-                            </button>
+                            <a href="#">
+                                <img src={logo} alt="my icon" />
+                            </a>
                         </div>
                         <div className="connect-button">
-                            <a href="https://github.com/kristal-cy" className="vvd">
+                            <button className="vvd" onClick={() => window.location.href = "https://github.com/kristal-cy"}>
                                 <span>Explore More</span>
-                            </a>
+                            </button>
                         </div>
                     </span>
                     <span className="github">
                         <div className="github-logo">
-                            <a href="https://github.com/kristal-cy" target="_blank" rel="noopener noreferrer">
-                                <img src={git} alt="GitHub profile" />
+                            <a href="https://github.com/kristal-cy">
+                                <img src={git} alt="my github" />
                             </a>
                         </div>
                     </span>
