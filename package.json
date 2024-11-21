@@ -1,8 +1,8 @@
 {
+  "homepage": "https://github.com/kristal-cy/kristal-cy.github.io.git",
   "name": "crystals",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kristal-cy.github.io/crystals",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
